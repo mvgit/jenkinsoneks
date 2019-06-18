@@ -15,7 +15,7 @@ spec:
       serviceAccountName: jenkins
       containers:
         - name: jenkins
-          image: mvdock/jenkins-master
+          image: 997300188927.dkr.ecr.us-east-1.amazonaws.com/jenkins-master
           env:
             - name: JAVA_OPTS
               value: -Djenkins.install.runSetupWizard=false
